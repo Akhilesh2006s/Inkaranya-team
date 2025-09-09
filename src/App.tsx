@@ -37,6 +37,12 @@ function App() {
       role: "Founder's Team",
       category: "3rd Year Student, SCSET",
       description: "leadership in technology."
+    },
+    {
+      name: "Mr. Atharv Krishna",
+      role: "Founder's Team",
+      category: "Team Member",
+      description: "Contributing to organizational growth and innovation."
     }
   ];
 
@@ -123,7 +129,7 @@ function App() {
                 <div className="relative">
                   <div className="w-full h-80 overflow-hidden">
                     <img 
-                      src={`/${[2, 5, 4, 3, 6, 1][index]}.jpg`} 
+                      src={`/${[2, 5, 4, 3, 6, 1, 7][index]}.jpg`} 
                       alt={`${member.name} - ${member.role}`}
                       className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
                     />
