@@ -45,8 +45,8 @@ function App() {
     {
       name: "Mr. Yasaswi",
       role: "Founder's Team",
-      category: "SOLA Alumni",
-      description: "Driving technical and strategic excellence with Yasaswi."
+      category: "3rd Year Student, SCSET",
+      description: "leadership in technology."
     },
     {
       name: "Mr. Atharv Krishna",
