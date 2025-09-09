@@ -46,13 +46,13 @@ function App() {
       name: "Mr. Yasaswi",
       role: "Founder's Team",
       category: "SOLA Alumni",
-      description: "Driving technical and strategic excellence with Yasaswi matter inside."
+      description: "Driving technical and strategic excellence with Yasaswi."
     },
     {
       name: "Mr. Atharv Krishna",
       role: "Founder's Team",
-      category: "Team Member",
-      description: "Contributing to organizational growth and innovation."
+      category: "SOLA Alumni",
+      description: "Driving technical and strategic excellence with Yasaswi atharv krishnass."
     }
   ];
 
