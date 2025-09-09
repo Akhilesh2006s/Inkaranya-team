@@ -66,7 +66,7 @@ function App() {
           {/* Logo in Right Corner */}
           <div className="flex items-center">
             <img 
-              src="/src/Logo.png" 
+              src="/Logo.png" 
               alt="Inkaranya Logo" 
               className="w-16 h-16 object-contain"
             />
@@ -123,7 +123,7 @@ function App() {
                 <div className="relative">
                   <div className="w-full h-80 overflow-hidden">
                     <img 
-                      src={`/src/${[2, 5, 4, 3, 6, 1][index]}.jpg`} 
+                      src={`/${[2, 5, 4, 3, 6, 1][index]}.jpg`} 
                       alt={`${member.name} - ${member.role}`}
                       className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
                     />
@@ -188,7 +188,7 @@ function App() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-4 mb-6 md:mb-0">
               <img 
-                src="/src/Logo.png" 
+                src="/Logo.png" 
                 alt="Inkaranya Logo" 
                 className="w-10 h-10 object-contain"
               />
