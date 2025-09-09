@@ -1,5 +1,15 @@
 import { Mail, Linkedin, MapPin, Phone } from 'lucide-react';
 
+// Import images
+import img1 from '/1.jpg';
+import img2 from '/2.jpg';
+import img3 from '/3.jpg';
+import img4 from '/4.jpg';
+import img5 from '/5.jpg';
+import img6 from '/6.jpg';
+import img7 from '/7.jpg';
+import logo from '/Logo.png';
+
 function App() {
   const teamMembers = [
     {
@@ -35,8 +45,8 @@ function App() {
     {
       name: "Mr. Yasaswi",
       role: "Founder's Team",
-      category: "3rd Year Student, SCSET",
-      description: "leadership in technology."
+      category: "SOLA Alumni",
+      description: "Driving technical and strategic excellence with Yasaswi."
     },
     {
       name: "Mr. Atharv Krishna",
@@ -72,7 +82,7 @@ function App() {
           {/* Logo in Right Corner */}
           <div className="flex items-center">
             <img 
-              src="/Logo.png" 
+              src={logo} 
               alt="Inkaranya Logo" 
               className="w-16 h-16 object-contain"
             />
@@ -129,7 +139,7 @@ function App() {
                 <div className="relative">
                   <div className="w-full h-80 overflow-hidden">
                     <img 
-                      src={`/${[2, 5, 4, 3, 6, 1, 7][index]}.jpg`} 
+                      src={[img2, img5, img4, img3, img6, img1, img7][index]} 
                       alt={`${member.name} - ${member.role}`}
                       className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
                     />
@@ -194,7 +204,7 @@ function App() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-4 mb-6 md:mb-0">
               <img 
-                src="/Logo.png" 
+                src={logo} 
                 alt="Inkaranya Logo" 
                 className="w-10 h-10 object-contain"
               />
